@@ -1,15 +1,10 @@
 package main
 
 import (
-	"bytes"
 	"net/url"
-	"io/ioutil"
 	"net/http"
 	"time"
-
 	"github.com/labstack/echo/v4"
-	"golang.org/x/net/html/charset"
-	"golang.org/x/text/transform"
 )
 
 
