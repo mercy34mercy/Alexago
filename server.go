@@ -23,7 +23,7 @@ func main() {
 
 func fetch(userid string,text string)(string){
 	print(text,userid)
-	url := "http://34.82.102.69:5000?userid=" + userid +"&prompt=" + url.QueryEscape(text)
+	url := "http://34.145.42.227:5000?userid=" + userid +"&prompt=" + url.QueryEscape(text)
 	req, _ := http.NewRequest("GET", url, nil)
 	client := new(http.Client)
 	r, _ := client.Do(req)
